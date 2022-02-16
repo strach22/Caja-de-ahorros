@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.js": "/Caja-de-ahorros/static/js/main.5a2771ff.chunk.js",
-    "main.js.map": "/Caja-de-ahorros/static/js/main.5a2771ff.chunk.js.map",
+    "main.js": "/Caja-de-ahorros/static/js/main.8b4c9615.chunk.js",
+    "main.js.map": "/Caja-de-ahorros/static/js/main.8b4c9615.chunk.js.map",
     "runtime-main.js": "/Caja-de-ahorros/static/js/runtime-main.30a251fa.js",
     "runtime-main.js.map": "/Caja-de-ahorros/static/js/runtime-main.30a251fa.js.map",
-    "static/js/2.4b867d08.chunk.js": "/Caja-de-ahorros/static/js/2.4b867d08.chunk.js",
-    "static/js/2.4b867d08.chunk.js.map": "/Caja-de-ahorros/static/js/2.4b867d08.chunk.js.map",
+    "static/js/2.f34b6930.chunk.js": "/Caja-de-ahorros/static/js/2.f34b6930.chunk.js",
+    "static/js/2.f34b6930.chunk.js.map": "/Caja-de-ahorros/static/js/2.f34b6930.chunk.js.map",
     "index.html": "/Caja-de-ahorros/index.html",
-    "static/js/2.4b867d08.chunk.js.LICENSE.txt": "/Caja-de-ahorros/static/js/2.4b867d08.chunk.js.LICENSE.txt",
+    "static/js/2.f34b6930.chunk.js.LICENSE.txt": "/Caja-de-ahorros/static/js/2.f34b6930.chunk.js.LICENSE.txt",
     "static/media/bg-profile.af1219a7.jpeg": "/Caja-de-ahorros/static/media/bg-profile.af1219a7.jpeg",
     "static/media/bg-sign-in-basic.f327db1d.jpeg": "/Caja-de-ahorros/static/media/bg-sign-in-basic.f327db1d.jpeg",
-    "static/media/bg-sign-up-cover.30c5950b.jpeg": "/Caja-de-ahorros/static/media/bg-sign-up-cover.30c5950b.jpeg",
     "static/media/bruce-mars.8a606c4a.jpg": "/Caja-de-ahorros/static/media/bruce-mars.8a606c4a.jpg",
     "static/media/github.067f80f3.svg": "/Caja-de-ahorros/static/media/github.067f80f3.svg",
     "static/media/home-decor-1.05e218fd.jpg": "/Caja-de-ahorros/static/media/home-decor-1.05e218fd.jpg",
@@ -37,7 +36,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.30a251fa.js",
-    "static/js/2.4b867d08.chunk.js",
-    "static/js/main.5a2771ff.chunk.js"
+    "static/js/2.f34b6930.chunk.js",
+    "static/js/main.8b4c9615.chunk.js"
   ]
 }
