@@ -33,7 +33,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="dark"
                 icon="weekend"
-                title="Ingresos"
+                title="Hola"
                 count={281}
                 percentage={{
                   color: "success",
