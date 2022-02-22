@@ -18,8 +18,7 @@ function Copyright(props) {
       <Link color="inherit" href="https://mui.com/">
         Your Website
       </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
+      {new Date().getFullYear()}.
     </Typography>
   );
 }
@@ -92,7 +91,13 @@ function Basic() {
                 id="password"
                 autoComplete="current-password"
               />
-              <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
+              <Button
+                type="submit"
+                fullWidth
+                variant="contained"
+                href="/dashboard"
+                sx={{ mt: 3, mb: 2 }}
+              >
                 Sign In
               </Button>
               <Grid container>
