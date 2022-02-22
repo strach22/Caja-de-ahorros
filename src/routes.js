@@ -16,7 +16,7 @@ const routes = [
     name: "Dashboard",
     key: "dashboard",
     icon: <Icon fontSize="small">dashboard</Icon>,
-    route: "/dashboard",
+    route: "/Caja-de-ahorros/dashboard",
     component: <Dashboard />,
   },
   {
@@ -24,7 +24,7 @@ const routes = [
     name: "Billing",
     key: "billing",
     icon: <Icon fontSize="small">receipt_long</Icon>,
-    route: "/billing",
+    route: "/Caja-de-ahorros/billing",
     component: <Billing />,
   },
   {
@@ -32,7 +32,7 @@ const routes = [
     name: "Tables",
     key: "tables",
     icon: <Icon fontSize="small">table_view</Icon>,
-    route: "/tables",
+    route: "/Caja-de-ahorros/tables",
     component: <Tables />,
   },
   {
@@ -40,7 +40,7 @@ const routes = [
     name: "Notifications",
     key: "notifications",
     icon: <Icon fontSize="small">notifications</Icon>,
-    route: "/notifications",
+    route: "/Caja-de-ahorros/notifications",
     component: <Notifications />,
   },
   {
@@ -48,7 +48,7 @@ const routes = [
     name: "Profile",
     key: "profile",
     icon: <Icon fontSize="small">person</Icon>,
-    route: "/profile",
+    route: "/Caja-de-ahorros/profile",
     component: <Profile />,
   },
   {
@@ -56,7 +56,7 @@ const routes = [
     name: "Sign In",
     key: "sign-in",
     icon: <Icon fontSize="small">login</Icon>,
-    route: "/authentication/sign-in",
+    route: "/Caja-de-ahorros/authentication/sign-in",
     component: <SignIn />,
   },
   {
@@ -64,7 +64,7 @@ const routes = [
     name: "Sign Up",
     key: "sign-up",
     icon: <Icon fontSize="small">assignment</Icon>,
-    route: "/authentication/sign-up",
+    route: "/Caja-de-ahorros/authentication/sign-up",
     component: <SignUp />,
   },
 ];
