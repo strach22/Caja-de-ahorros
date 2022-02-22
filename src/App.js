@@ -126,7 +126,10 @@ export default function App() {
       {layout === "vr" && <Configurator />}
       <Routes>
         {getRoutes(routes)}
-        <Route path="/" element={<Navigate to="Caja-de-ahorros/dashboard" />} />
+        <Route
+          path="/Caja-de-ahorros"
+          element={<Navigate to="/Caja-de-ahorros/authentication/sign-in/" />}
+        />
       </Routes>
     </ThemeProvider>
   );
