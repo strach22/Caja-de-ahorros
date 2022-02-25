@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/Caja-de-ahorros/static/css/main.30e8e37c.chunk.css",
-    "main.js": "/Caja-de-ahorros/static/js/main.9fa23bd0.chunk.js",
-    "main.js.map": "/Caja-de-ahorros/static/js/main.9fa23bd0.chunk.js.map",
+    "main.js": "/Caja-de-ahorros/static/js/main.faf81648.chunk.js",
+    "main.js.map": "/Caja-de-ahorros/static/js/main.faf81648.chunk.js.map",
     "runtime-main.js": "/Caja-de-ahorros/static/js/runtime-main.30a251fa.js",
     "runtime-main.js.map": "/Caja-de-ahorros/static/js/runtime-main.30a251fa.js.map",
-    "static/js/2.373b8f7c.chunk.js": "/Caja-de-ahorros/static/js/2.373b8f7c.chunk.js",
-    "static/js/2.373b8f7c.chunk.js.map": "/Caja-de-ahorros/static/js/2.373b8f7c.chunk.js.map",
+    "static/js/2.94b652bb.chunk.js": "/Caja-de-ahorros/static/js/2.94b652bb.chunk.js",
+    "static/js/2.94b652bb.chunk.js.map": "/Caja-de-ahorros/static/js/2.94b652bb.chunk.js.map",
     "index.html": "/Caja-de-ahorros/index.html",
-    "static/css/main.30e8e37c.chunk.css.map": "/Caja-de-ahorros/static/css/main.30e8e37c.chunk.css.map",
-    "static/js/2.373b8f7c.chunk.js.LICENSE.txt": "/Caja-de-ahorros/static/js/2.373b8f7c.chunk.js.LICENSE.txt",
+    "static/js/2.94b652bb.chunk.js.LICENSE.txt": "/Caja-de-ahorros/static/js/2.94b652bb.chunk.js.LICENSE.txt",
     "static/media/bg-profile.af1219a7.jpeg": "/Caja-de-ahorros/static/media/bg-profile.af1219a7.jpeg",
     "static/media/bruce-mars.8a606c4a.jpg": "/Caja-de-ahorros/static/media/bruce-mars.8a606c4a.jpg",
     "static/media/github.067f80f3.svg": "/Caja-de-ahorros/static/media/github.067f80f3.svg",
@@ -27,18 +25,14 @@
     "static/media/logo-spotify.e83cf56c.svg": "/Caja-de-ahorros/static/media/logo-spotify.e83cf56c.svg",
     "static/media/logo-xd.6e37886f.svg": "/Caja-de-ahorros/static/media/logo-xd.6e37886f.svg",
     "static/media/marie.c28f3266.jpg": "/Caja-de-ahorros/static/media/marie.c28f3266.jpg",
-    "static/media/mastercard.27fca3e7.png": "/Caja-de-ahorros/static/media/mastercard.27fca3e7.png",
-    "static/media/pattern-tree.156bb943.svg": "/Caja-de-ahorros/static/media/pattern-tree.156bb943.svg",
     "static/media/team-1.0fd36e0e.jpg": "/Caja-de-ahorros/static/media/team-1.0fd36e0e.jpg",
     "static/media/team-2.13ae2ce3.jpg": "/Caja-de-ahorros/static/media/team-2.13ae2ce3.jpg",
     "static/media/team-3.0ef0be95.jpg": "/Caja-de-ahorros/static/media/team-3.0ef0be95.jpg",
-    "static/media/team-4.85c82b6e.jpg": "/Caja-de-ahorros/static/media/team-4.85c82b6e.jpg",
-    "static/media/visa.71c0d5e9.png": "/Caja-de-ahorros/static/media/visa.71c0d5e9.png"
+    "static/media/team-4.85c82b6e.jpg": "/Caja-de-ahorros/static/media/team-4.85c82b6e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.30a251fa.js",
-    "static/js/2.373b8f7c.chunk.js",
-    "static/css/main.30e8e37c.chunk.css",
-    "static/js/main.9fa23bd0.chunk.js"
+    "static/js/2.94b652bb.chunk.js",
+    "static/js/main.faf81648.chunk.js"
   ]
 }
