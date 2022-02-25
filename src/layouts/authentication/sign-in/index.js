@@ -29,11 +29,10 @@ function Basic() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
+    const user = data.get("user");
+    const password = data.get("password");
     // eslint-disable-next-line no-console
-    console.log({
-      email: data.get("email"),
-      password: data.get("password"),
-    });
+    if (user !== "123" && password !== "123") alert("contraseña incorrecta");
   };
 
   return (
@@ -75,9 +74,9 @@ function Basic() {
                 margin="normal"
                 required
                 fullWidth
-                id="usuario"
+                id="user"
                 label="Usuario"
-                name="usuario"
+                name="user"
                 autoComplete="usuario"
                 autoFocus
               />
@@ -85,22 +84,16 @@ function Basic() {
                 margin="normal"
                 required
                 fullWidth
-                name="contraseña"
+                name="password"
                 label="Contraseña"
                 type="password"
                 id="password"
                 autoComplete="current-password"
               />
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                href="/dashboard"
-                sx={{ mt: 3, mb: 2 }}
-              >
+              <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
                 Iniciar
               </Button>
-              <Copyright sx={{ mt: 20 }} />
+              <Copyright sx={{ mt: 8 }} />
             </Box>
           </Box>
         </Grid>
