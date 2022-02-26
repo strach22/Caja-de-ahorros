@@ -31,8 +31,13 @@ function Basic() {
     const data = new FormData(event.currentTarget);
     const user = data.get("user");
     const password = data.get("password");
-    // eslint-disable-next-line no-console
-    if (user !== "123" && password !== "123") alert("contraseña incorrecta");
+    if (user !== "123" && password !== "123") {
+      // eslint-disable-next-line no-alert
+      alert("contraseña incorrecta");
+    } else {
+      // eslint-disable-next-line no-alert
+      alert("contraseña correcta");
+    }
   };
 
   return (
