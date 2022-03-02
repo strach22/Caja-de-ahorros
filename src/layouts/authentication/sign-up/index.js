@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
-import { AddLista } from "./components/AddLista";
+import { AddGif } from "./components/AddGif";
+import "./indexSingUp.css";
 
 function Cover() {
-  const [lista, setLista] = useState("");
+  const [categories, setCategories] = useState(["Marvel", "DC", "Anime"]);
   return (
     <>
-      <h2>Primera Aplicación de Prueba en el Sign-UP</h2>
-      <AddCategory setLista={setLista} />
+      <h2>LISTADO DE GIFS</h2>
+      <AddCategory setCategories={setCategories} />
       <hr />
-
       <ol>
-        {lista.map((auxLista) => (
-          <AddLista key={auxLista} auxLista={auxLista} />
+        {categories.map((category) => (
+          <AddGif key={category} category={category} />
         ))}
       </ol>
     </>
