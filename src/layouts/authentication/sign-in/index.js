@@ -11,18 +11,6 @@ import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
 
-function Copyright(props) {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}.
-    </Typography>
-  );
-}
-
 const theme = createTheme();
 
 function Basic() {
@@ -98,7 +86,13 @@ function Basic() {
               <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
                 Iniciar
               </Button>
-              <Copyright sx={{ mt: 8 }} />
+              <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 8 }}>
+                {"Copyright © "}
+                <Link color="inherit" href="https://mui.com/">
+                  Your Website
+                </Link>{" "}
+                {new Date().getFullYear()}.
+              </Typography>
             </Box>
           </Box>
         </Grid>
