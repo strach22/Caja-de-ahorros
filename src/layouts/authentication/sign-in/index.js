@@ -26,7 +26,7 @@ function Basic() {
       // eslint-disable-next-line no-alert
       alert("contraseña incorrecta");
     } else {
-      navigate("/dashboard");
+      navigate("/inicio");
     }
   };
 

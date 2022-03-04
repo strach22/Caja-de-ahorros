@@ -10,6 +10,11 @@ import Simulador from "layouts/simulador";
 import Credito from "layouts/credito";
 import CargaClientes from "layouts/cargaClientes";
 import CargaValClientes from "layouts/cargaValClientes";
+import CargaCreditos from "layouts/cargaCreditos";
+import Historial from "layouts/historial";
+import Informacion from "layouts/informacion";
+import Cobranzas from "layouts/cobranzas";
+import Control from "layouts/control";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -95,6 +100,46 @@ const routes = [
     icon: <Icon fontSize="small">table_view</Icon>,
     route: "/cargaValClientes",
     component: <CargaValClientes />,
+  },
+  {
+    type: "collapse",
+    name: "Carga Creditos",
+    key: "cargaCreditos",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/cargaCreditos",
+    component: <CargaCreditos />,
+  },
+  {
+    type: "collapse",
+    name: "Historial",
+    key: "historial",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/historial",
+    component: <Historial />,
+  },
+  {
+    type: "collapse",
+    name: "Cobranzas",
+    key: "cobranzas",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/cobranzas",
+    component: <Cobranzas />,
+  },
+  {
+    type: "collapse",
+    name: "Información",
+    key: "informacion",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/informacion",
+    component: <Informacion />,
+  },
+  {
+    type: "collapse",
+    name: "Control",
+    key: "control",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/control",
+    component: <Control />,
   },
   {
     type: "collapse",
