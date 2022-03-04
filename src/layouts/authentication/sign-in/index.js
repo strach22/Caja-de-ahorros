@@ -10,21 +10,23 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 
 const theme = createTheme();
 
 function Basic() {
+  const navigate = useNavigate();
+
   const handleSubmit = (event) => {
-    event.preventDefault();
     const data = new FormData(event.currentTarget);
     const user = data.get("user");
     const password = data.get("password");
+    event.preventDefault();
     if (user !== "123" && password !== "123") {
       // eslint-disable-next-line no-alert
       alert("contraseña incorrecta");
     } else {
-      // eslint-disable-next-line no-alert
-      alert("contraseña correcta");
+      navigate("/dashboard");
     }
   };
 
@@ -84,7 +86,7 @@ function Basic() {
                 autoComplete="current-password"
               />
               <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
-                Iniciar
+                INICIAR
               </Button>
               <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 8 }}>
                 {"Copyright © "}
