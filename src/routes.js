@@ -1,11 +1,15 @@
 // layouts
 import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
-import Billing from "layouts/billing";
-import Notifications from "layouts/notifications";
-import Profile from "layouts/profile";
+import Depositos from "layouts/depositos";
+import Clientes from "layouts/clientes";
+import Addclients from "layouts/addclients";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
+import Retiros from "layouts/retiros";
+import Simulador from "layouts/simulador";
+import Credito from "layouts/credito";
+import CargaClientes from "layouts/cargaClientes";
+import CargaValClientes from "layouts/cargaValClientes";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -25,43 +29,73 @@ const routes = [
     name: "Inicio",
     key: "dashboard",
     icon: <Icon fontSize="small">dashboard</Icon>,
-    route: "/dashboard",
+    route: "/inicio",
     component: <Dashboard />,
   },
   {
     type: "collapse",
-    name: "Billing",
-    key: "billing",
-    icon: <Icon fontSize="small">receipt_long</Icon>,
-    route: "/billing",
-    component: <Billing />,
-  },
-  {
-    type: "collapse",
-    name: "Tables",
-    key: "tables",
-    icon: <Icon fontSize="small">table_view</Icon>,
-    route: "/tables",
-    component: <Tables />,
-  },
-  {
-    type: "collapse",
-    name: "Notifications",
-    key: "notifications",
-    icon: <Icon fontSize="small">notifications</Icon>,
-    route: "/notifications",
-    component: <Notifications />,
-  },
-
-  {
-    type: "collapse",
-    name: "Profile",
-    key: "profile",
+    name: "Clientes",
+    key: "clientes",
     icon: <Icon fontSize="small">person</Icon>,
-    route: "/profile",
-    component: <Profile />,
+    route: "/clientes",
+    component: <Clientes />,
   },
-
+  {
+    type: "collapse",
+    name: "Añadir clientes",
+    key: "addclients",
+    icon: <Icon fontSize="small">person_add</Icon>,
+    route: "/addclients",
+    component: <Addclients />,
+  },
+  {
+    type: "collapse",
+    name: "Depositos",
+    key: "depositos",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/depositos",
+    component: <Depositos />,
+  },
+  {
+    type: "collapse",
+    name: "Retiros",
+    key: "retiros",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/retiros",
+    component: <Retiros />,
+  },
+  {
+    type: "collapse",
+    name: "Simulador",
+    key: "simulador",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/simulador",
+    component: <Simulador />,
+  },
+  {
+    type: "collapse",
+    name: "Credito",
+    key: "credito",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/credito",
+    component: <Credito />,
+  },
+  {
+    type: "collapse",
+    name: "Carga de Clientes",
+    key: "cargaClientes",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/cargaClientes",
+    component: <CargaClientes />,
+  },
+  {
+    type: "collapse",
+    name: "Carga Valores Clientes",
+    key: "cargaValClientes",
+    icon: <Icon fontSize="small">table_view</Icon>,
+    route: "/cargaValClientes",
+    component: <CargaValClientes />,
+  },
   {
     type: "collapse",
     name: "Sign Up",
