@@ -90,8 +90,8 @@ function Basic() {
               </Button>
               <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 8 }}>
                 {"Copyright © "}
-                <Link color="inherit" href="https://mui.com/">
-                  Your Website
+                <Link color="inherit" href="https://www.facebook.com/k.sytem/?ref=pages_you_manage">
+                  Kathuna System
                 </Link>{" "}
                 {new Date().getFullYear()}.
               </Typography>
