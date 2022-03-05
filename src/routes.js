@@ -128,7 +128,7 @@ const routes = [
     type: "collapse",
     name: "Control",
     key: "control",
-    icon: <Icon fontSize="small">engineering</Icon>,
+    icon: <Icon fontSize="small">settings</Icon>,
     route: "/control",
     component: <Control />,
   },

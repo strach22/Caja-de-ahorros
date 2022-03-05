@@ -16,7 +16,6 @@ const theme = createTheme();
 
 function Basic() {
   const navigate = useNavigate();
-
   const handleSubmit = (event) => {
     const data = new FormData(event.currentTarget);
     const user = data.get("user");
@@ -40,7 +39,7 @@ function Basic() {
           sm={4}
           md={7}
           sx={{
-            backgroundImage: "url(https://source.unsplash.com/random)",
+            backgroundImage: "url(proximamente.jpeg)",
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
               t.palette.mode === "light" ? t.palette.grey[50] : t.palette.grey[900],
