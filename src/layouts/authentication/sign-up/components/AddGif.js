@@ -4,7 +4,7 @@ import { useFetchGifs } from "../hooks/useFetchGifs";
 import { AddItemGif } from "./AddItemGif";
 
 // eslint-disable-next-line import/prefer-default-export
-export const AddGif = ({ category }) => {
+export function AddGif({ category }) {
   const { data: images, loading } = useFetchGifs(category);
 
   return (
@@ -18,7 +18,7 @@ export const AddGif = ({ category }) => {
       </div>
     </>
   );
-};
+}
 
 AddGif.propTypes = {
   category: PropTypes.func.isRequired,

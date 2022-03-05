@@ -64,7 +64,7 @@ function MaterialUIControllerProvider({ children }) {
   };
 
   const [controller, dispatch] = useReducer(reducer, initialState);
-
+  // eslint-disable-next-line react/jsx-no-constructed-context-values
   return <MaterialUI.Provider value={[controller, dispatch]}>{children}</MaterialUI.Provider>;
 }
 

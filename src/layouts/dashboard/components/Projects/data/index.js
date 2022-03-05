@@ -46,14 +46,16 @@ export default function data() {
       </Tooltip>
     ));
 
-  const Company = ({ image, name }) => (
-    <MDBox display="flex" alignItems="center" lineHeight={1}>
-      <MDAvatar src={image} name={name} size="sm" />
-      <MDTypography variant="button" fontWeight="medium" ml={1} lineHeight={1}>
-        {name}
-      </MDTypography>
-    </MDBox>
-  );
+  function Company({ image, name }) {
+    return (
+      <MDBox display="flex" alignItems="center" lineHeight={1}>
+        <MDAvatar src={image} name={name} size="sm" />
+        <MDTypography variant="button" fontWeight="medium" ml={1} lineHeight={1}>
+          {name}
+        </MDTypography>
+      </MDBox>
+    );
+  }
 
   return {
     columns: [

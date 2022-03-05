@@ -33,6 +33,7 @@ const MDPagination = forwardRef(
     const paginationSize = context ? context.size : null;
 
     return (
+      // eslint-disable-next-line react/jsx-no-constructed-context-values
       <Context.Provider value={{ variant, color, size }}>
         {item ? (
           <MDPaginationItemRoot

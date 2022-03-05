@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 
 // eslint-disable-next-line import/prefer-default-export
-export const AddCategory = ({ setCategories }) => {
+export function AddCategory({ setCategories }) {
   const [inputValue, setInputValue] = useState("");
 
   const handleInputChange = (e) => {
@@ -23,7 +23,7 @@ export const AddCategory = ({ setCategories }) => {
       <input type="text" value={inputValue} onChange={handleInputChange} />
     </form>
   );
-};
+}
 
 AddCategory.propTypes = {
   setCategories: PropTypes.func.isRequired,
