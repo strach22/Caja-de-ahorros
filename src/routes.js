@@ -2,14 +2,13 @@
 import Dashboard from "layouts/dashboard";
 import Depositos from "layouts/depositos";
 import Clientes from "layouts/clientes";
-import Addclients from "layouts/addclients";
+import AñadirClientes from "layouts/añadirClientes";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import Retiros from "layouts/retiros";
 import Simulador from "layouts/simulador";
 import Credito from "layouts/credito";
 import CargaClientes from "layouts/cargaClientes";
-import CargaValClientes from "layouts/cargaValClientes";
 import CargaCreditos from "layouts/cargaCreditos";
 import Historial from "layouts/historial";
 import Informacion from "layouts/informacion";
@@ -33,7 +32,7 @@ const routes = [
     type: "collapse",
     name: "Inicio",
     key: "dashboard",
-    icon: <Icon fontSize="small">dashboard</Icon>,
+    icon: <Icon fontSize="small">home</Icon>,
     route: "/inicio",
     component: <Dashboard />,
   },
@@ -51,13 +50,13 @@ const routes = [
     key: "addclients",
     icon: <Icon fontSize="small">person_add</Icon>,
     route: "/addclients",
-    component: <Addclients />,
+    component: <AñadirClientes />,
   },
   {
     type: "collapse",
     name: "Depositos",
     key: "depositos",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">add</Icon>,
     route: "/depositos",
     component: <Depositos />,
   },
@@ -65,7 +64,7 @@ const routes = [
     type: "collapse",
     name: "Retiros",
     key: "retiros",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">remove</Icon>,
     route: "/retiros",
     component: <Retiros />,
   },
@@ -73,7 +72,7 @@ const routes = [
     type: "collapse",
     name: "Simulador",
     key: "simulador",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">computer</Icon>,
     route: "/simulador",
     component: <Simulador />,
   },
@@ -81,7 +80,7 @@ const routes = [
     type: "collapse",
     name: "Credito",
     key: "credito",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">account_balance_wallet</Icon>,
     route: "/credito",
     component: <Credito />,
   },
@@ -89,23 +88,15 @@ const routes = [
     type: "collapse",
     name: "Carga de Clientes",
     key: "cargaClientes",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">account_box</Icon>,
     route: "/cargaClientes",
     component: <CargaClientes />,
   },
   {
     type: "collapse",
-    name: "Carga Valores Clientes",
-    key: "cargaValClientes",
-    icon: <Icon fontSize="small">table_view</Icon>,
-    route: "/cargaValClientes",
-    component: <CargaValClientes />,
-  },
-  {
-    type: "collapse",
     name: "Carga Creditos",
     key: "cargaCreditos",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">drive_folder_upload_icon</Icon>,
     route: "/cargaCreditos",
     component: <CargaCreditos />,
   },
@@ -113,7 +104,7 @@ const routes = [
     type: "collapse",
     name: "Historial",
     key: "historial",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">history</Icon>,
     route: "/historial",
     component: <Historial />,
   },
@@ -121,7 +112,7 @@ const routes = [
     type: "collapse",
     name: "Cobranzas",
     key: "cobranzas",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">paid</Icon>,
     route: "/cobranzas",
     component: <Cobranzas />,
   },
@@ -129,7 +120,7 @@ const routes = [
     type: "collapse",
     name: "Información",
     key: "informacion",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">account_balance</Icon>,
     route: "/informacion",
     component: <Informacion />,
   },
@@ -137,7 +128,7 @@ const routes = [
     type: "collapse",
     name: "Control",
     key: "control",
-    icon: <Icon fontSize="small">table_view</Icon>,
+    icon: <Icon fontSize="small">engineering</Icon>,
     route: "/control",
     component: <Control />,
   },
