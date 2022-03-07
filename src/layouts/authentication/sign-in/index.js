@@ -18,15 +18,16 @@ const theme = createTheme();
 function Basic() {
   const navigate = useNavigate();
   const [inPassw, setInPassw] = useState(false);
+  const [inUser, setInUser] = useState(false);
   const handleSubmit = (event) => {
     const data = new FormData(event.currentTarget);
     const user = data.get("user");
     const password = data.get("password");
     event.preventDefault();
-    if (user !== "123" && password !== "123") {
-      setInPassw(true);
-    } else {
-      navigate("/inicio");
+    if (user === "123" && password === "123") navigate("/inicio");
+    else {
+      if (password !== "123") setInPassw(true);
+      if (user !== "123") setInUser(true);
     }
   };
 
@@ -67,7 +68,7 @@ function Basic() {
             </Typography>
             <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
               <TextField
-                error={inPassw}
+                error={inUser}
                 margin="normal"
                 required
                 fullWidth
