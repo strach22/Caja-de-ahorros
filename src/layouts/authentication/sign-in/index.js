@@ -39,12 +39,13 @@ function Basic() {
           sm={4}
           md={7}
           sx={{
-            backgroundImage: "url(proximamente.jpeg)",
+            backgroundImage:
+              "url(https://scontent.fuio1-2.fna.fbcdn.net/v/t39.30808-6/273941303_488541149283069_7084434650500572828_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeEJgbpa1cM2xEyZdXQQ56UhsZ5t5ImHhj-xnm3kiYeGP06winyfzmy_gXOaLkOHeQJY5TKY7wjAZOo2qty9bpli&_nc_ohc=UHI8bJYjf3sAX9cgVD6&_nc_ht=scontent.fuio1-2.fna&oh=00_AT8PN5fuPxSwQPPQozhtmlub1riB7SFsbH3qM9z9VT3Ujg&oe=622BC196)",
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
               t.palette.mode === "light" ? t.palette.grey[50] : t.palette.grey[900],
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "left",
           }}
         />
         <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
