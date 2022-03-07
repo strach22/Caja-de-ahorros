@@ -10,20 +10,21 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const theme = createTheme();
 
 function Basic() {
   const navigate = useNavigate();
+  const [inPassw, setInPassw] = useState(false);
   const handleSubmit = (event) => {
     const data = new FormData(event.currentTarget);
     const user = data.get("user");
     const password = data.get("password");
     event.preventDefault();
     if (user !== "123" && password !== "123") {
-      // eslint-disable-next-line no-alert
-      alert("contraseña incorrecta");
+      setInPassw(true);
     } else {
       navigate("/inicio");
     }
@@ -66,6 +67,7 @@ function Basic() {
             </Typography>
             <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
               <TextField
+                error={inPassw}
                 margin="normal"
                 required
                 fullWidth
@@ -76,6 +78,7 @@ function Basic() {
                 autoFocus
               />
               <TextField
+                error={inPassw}
                 margin="normal"
                 required
                 fullWidth
