@@ -59,7 +59,7 @@ function MaterialUIControllerProvider({ children }) {
     fixedNavbar: true,
     openConfigurator: false,
     direction: "ltr",
-    layout: "sign-in",
+    layout: "page",
     darkMode: false,
   };
 
