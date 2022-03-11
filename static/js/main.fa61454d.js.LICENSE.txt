@@ -11,12 +11,6 @@ object-assign
  * Released under the MIT License
  */
 
-/*!
- * github-buttons v2.21.1
- * (c) 2021 なつき
- * @license BSD-2-Clause
- */
-
 /**
  * React Router DOM v6.2.1
  *
