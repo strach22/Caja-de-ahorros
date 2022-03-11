@@ -46,7 +46,7 @@ function Basic() {
             md={7}
             sx={{
               backgroundImage:
-                "url(https://scontent.fuio1-2.fna.fbcdn.net/v/t39.30808-6/273941303_488541149283069_7084434650500572828_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeEJgbpa1cM2xEyZdXQQ56UhsZ5t5ImHhj-xnm3kiYeGP06winyfzmy_gXOaLkOHeQJY5TKY7wjAZOo2qty9bpli&_nc_ohc=UHI8bJYjf3sAX9cgVD6&_nc_ht=scontent.fuio1-2.fna&oh=00_AT8PN5fuPxSwQPPQozhtmlub1riB7SFsbH3qM9z9VT3Ujg&oe=622BC196)",
+                "url(https://scontent.fuio1-2.fna.fbcdn.net/v/t39.30808-6/275188701_500323518104832_5773081159811977078_n.png?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHiY2i8WTfXhVEY-EwFr-cwq5YpAiuL_lOrlikCK4v-U6cWTizRfS7m_sP1tXsoSjv00aWt5Z3E-oogFDsTLpCv&_nc_ohc=n9rRNBufOKwAX_n2P4j&tn=yXpBYTTnJK5SJOjI&_nc_ht=scontent.fuio1-2.fna&oh=00_AT9C7OCerrEOgWFy-GcHobf92ZzmiK2qtQ3FcuBYGjb6bQ&oe=622ED234)",
               backgroundRepeat: "no-repeat",
               backgroundColor: (t) =>
                 t.palette.mode === "light" ? t.palette.grey[50] : t.palette.grey[900],
