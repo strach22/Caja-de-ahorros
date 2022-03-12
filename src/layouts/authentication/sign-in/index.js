@@ -20,17 +20,20 @@ function Basic() {
   const navigate = useNavigate();
   const [inPassw, setInPassw] = useState(false);
   const [inUser, setInUser] = useState(false);
+
+  const user = "123";
+  const password = "123";
   const handleSubmit = (event) => {
     const data = new FormData(event.currentTarget);
-    const user = data.get("user");
-    const password = data.get("password");
+    const userForm = data.get("user");
+    const passwordForm = data.get("password");
     event.preventDefault();
-    if (user === "123" && password === "123") navigate("/inicio");
+    if (userForm === user && passwordForm === password) navigate("/inicio");
     else {
-      if (password !== "123") setInPassw(true);
-      if (user !== "123") setInUser(true);
-      if (password === "123") setInPassw(false);
-      if (user === "123") setInUser(false);
+      if (passwordForm !== password) setInPassw(true);
+      if (userForm !== user) setInUser(true);
+      if (passwordForm === password) setInPassw(false);
+      if (userForm === user) setInUser(false);
     }
   };
 

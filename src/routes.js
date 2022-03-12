@@ -46,10 +46,10 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Añadir clientes",
-    key: "addclients",
+    name: "Agragar clientes",
+    key: "agragar-clientes",
     icon: <Icon fontSize="small">person_add</Icon>,
-    route: "/addclients",
+    route: "/agragar-clientes",
     component: <AñadirClientes />,
   },
   {
@@ -87,17 +87,17 @@ const routes = [
   {
     type: "collapse",
     name: "Carga de Clientes",
-    key: "cargaClientes",
+    key: "cargar-clientes",
     icon: <Icon fontSize="small">account_box</Icon>,
-    route: "/cargaClientes",
+    route: "/cargar-clientes",
     component: <CargaClientes />,
   },
   {
     type: "collapse",
     name: "Carga Creditos",
-    key: "cargaCreditos",
+    key: "cargar-creditos",
     icon: <Icon fontSize="small">drive_folder_upload_icon</Icon>,
-    route: "/cargaCreditos",
+    route: "/cargar-creditos",
     component: <CargaCreditos />,
   },
   {
