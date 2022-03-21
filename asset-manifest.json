@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Caja-de-ahorros/static/css/main.87daad54.css",
-    "main.js": "/Caja-de-ahorros/static/js/main.022c91e2.js",
+    "main.js": "/Caja-de-ahorros/static/js/main.9138bcda.js",
     "static/media/home-decor-3.jpg": "/Caja-de-ahorros/static/media/home-decor-3.74d13fcbd3c631fc7908.jpg",
     "static/media/home-decor-2.jpg": "/Caja-de-ahorros/static/media/home-decor-2.b4e5397c9846645ba275.jpg",
     "static/media/home-decor-1.jpg": "/Caja-de-ahorros/static/media/home-decor-1.05e218fd495ccc65c99d.jpg",
@@ -25,10 +25,10 @@
     "static/media/logo-asana.svg": "/Caja-de-ahorros/static/media/logo-asana.d758f410d82760a61d1eabcb03409de6.svg",
     "index.html": "/Caja-de-ahorros/index.html",
     "main.87daad54.css.map": "/Caja-de-ahorros/static/css/main.87daad54.css.map",
-    "main.022c91e2.js.map": "/Caja-de-ahorros/static/js/main.022c91e2.js.map"
+    "main.9138bcda.js.map": "/Caja-de-ahorros/static/js/main.9138bcda.js.map"
   },
   "entrypoints": [
     "static/css/main.87daad54.css",
-    "static/js/main.022c91e2.js"
+    "static/js/main.9138bcda.js"
   ]
 }
