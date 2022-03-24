@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Caja-de-ahorros/static/css/main.87daad54.css",
-    "main.js": "/Caja-de-ahorros/static/js/main.6117e8df.js",
+    "main.js": "/Caja-de-ahorros/static/js/main.dd83a07e.js",
     "static/media/home-decor-3.jpg": "/Caja-de-ahorros/static/media/home-decor-3.74d13fcbd3c631fc7908.jpg",
     "static/media/home-decor-2.jpg": "/Caja-de-ahorros/static/media/home-decor-2.b4e5397c9846645ba275.jpg",
     "static/media/home-decor-1.jpg": "/Caja-de-ahorros/static/media/home-decor-1.05e218fd495ccc65c99d.jpg",
     "static/media/bg-profile.jpeg": "/Caja-de-ahorros/static/media/bg-profile.af1219a742e09fc7b612.jpeg",
+    "static/media/bg-kathuna.png": "/Caja-de-ahorros/static/media/bg-kathuna.d589369bfa0f1dd33bdc.png",
     "static/media/home-decor-4.jpeg": "/Caja-de-ahorros/static/media/home-decor-4.5b448fd339a14695f6aa.jpeg",
     "static/media/team-1.jpg": "/Caja-de-ahorros/static/media/team-1.0fd36e0ee93dcfacdef8.jpg",
     "static/media/bruce-mars.jpg": "/Caja-de-ahorros/static/media/bruce-mars.8a606c4a6dab54c9ceff.jpg",
@@ -25,10 +26,10 @@
     "static/media/logo-asana.svg": "/Caja-de-ahorros/static/media/logo-asana.d758f410d82760a61d1eabcb03409de6.svg",
     "index.html": "/Caja-de-ahorros/index.html",
     "main.87daad54.css.map": "/Caja-de-ahorros/static/css/main.87daad54.css.map",
-    "main.6117e8df.js.map": "/Caja-de-ahorros/static/js/main.6117e8df.js.map"
+    "main.dd83a07e.js.map": "/Caja-de-ahorros/static/js/main.dd83a07e.js.map"
   },
   "entrypoints": [
     "static/css/main.87daad54.css",
-    "static/js/main.6117e8df.js"
+    "static/js/main.dd83a07e.js"
   ]
 }
