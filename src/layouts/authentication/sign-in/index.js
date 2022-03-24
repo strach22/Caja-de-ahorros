@@ -13,6 +13,7 @@ import Typography from "@mui/material/Typography";
 import * as React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import background from "assets/images/bg-kathuna.png";
 
 const theme = createTheme();
 
@@ -48,8 +49,7 @@ function Basic() {
             sm={4}
             md={7}
             sx={{
-              backgroundImage:
-                "url(https://scontent.fuio1-2.fna.fbcdn.net/v/t39.30808-6/275188701_500323518104832_5773081159811977078_n.png?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHiY2i8WTfXhVEY-EwFr-cwq5YpAiuL_lOrlikCK4v-U6cWTizRfS7m_sP1tXsoSjv00aWt5Z3E-oogFDsTLpCv&_nc_ohc=wi7b56B1pxMAX-j372U&tn=yXpBYTTnJK5SJOjI&_nc_ht=scontent.fuio1-2.fna&oh=00_AT_Sb-W0uIpSx0OgD9hI_UBeXCEwOgSCMCdjicOxpoRbMA&oe=62409E74)",
+              backgroundImage: `url(${background})`,
               backgroundRepeat: "no-repeat",
               backgroundColor: (t) =>
                 t.palette.mode === "light" ? t.palette.grey[50] : t.palette.grey[900],
