@@ -13,10 +13,10 @@ import Footer from "examples/Footer";
 import DataTable from "examples/Tables/DataTable";
 
 // Data
-import authorsTableData from "layouts/tables/data/authorsTableData";
+import clientes from "layouts/clientes/data/clientes";
 
 function Tables() {
-  const { columns, rows } = authorsTableData();
+  const { columns, rows } = clientes();
 
   return (
     <DashboardLayout>
@@ -35,17 +35,18 @@ function Tables() {
                 borderRadius="lg"
                 coloredShadow="info"
               >
-                <MDTypography variant="h6" color="white">
-                  Authors Table
+                <MDTypography variant="h5" color="white">
+                  LISTA DE CLIENTES
                 </MDTypography>
               </MDBox>
               <MDBox pt={3}>
                 <DataTable
                   table={{ columns, rows }}
+                  canSearch
                   isSorted={false}
-                  entriesPerPage={false}
                   showTotalEntries={false}
                   noEndBorder
+                  entriesPerPage={false}
                 />
               </MDBox>
             </Card>
