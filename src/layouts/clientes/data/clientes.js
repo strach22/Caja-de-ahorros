@@ -12,7 +12,7 @@ export default function data() {
       { Header: "apellidos", accessor: "apellidos", align: "left" },
       { Header: "documento", accessor: "documento", align: "center" },
       { Header: "teléfono", accessor: "telefono", align: "center" },
-      { Header: "tarifa", accessor: "socio", align: "center" },
+      { Header: "tarifa", accessor: "tariff", align: "center" },
       { Header: "acción", accessor: "accion", align: "center" },
     ],
 
@@ -44,11 +44,17 @@ export default function data() {
       ),
       socio: (
         <MDTypography variant="caption" color="text" fontWeight="medium">
-          {cliente.socio}
+          {cliente.tariff}
         </MDTypography>
       ),
       accion: (
-        <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
+        <MDTypography
+          component="a"
+          href={`clientes/${cliente.codigo}`}
+          variant="caption"
+          color="text"
+          fontWeight="medium"
+        >
           Ver
         </MDTypography>
       ),

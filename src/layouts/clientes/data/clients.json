@@ -5,7 +5,10 @@
         "apellidos": "Espín",
         "documento": "17172937234",
         "telefono": "0998888888",
-        "socio": "Socio"
+        "direccion": "La planada",
+        "correoelectronico":"fernando@kathuna.com",
+        "tariff": "Socio",
+        "saldo":35
     },
     {
         "codigo": 2,
@@ -13,7 +16,10 @@
         "apellidos": "Benavides",
         "documento": "1717293799",
         "telefono": "0998888899",
-        "socio": "Socio"
+        "direccion": "Las casas",
+        "correoelectronico":"erick@kathuna.com",
+        "tariff": "Socio",
+        "saldo":3000
     },
     {
         "codigo": 3,
@@ -21,7 +27,10 @@
         "apellidos": "Lovato Encarnación",
         "documento": "1717293774",
         "telefono": "0998888888",
-        "socio": "Particular"
+        "direccion": "Pusuqui",
+        "correoelectronico":"Diuks@notengoempresa.com",
+        "tariff": "Particular",
+        "saldo": 10000
     },
     {
         "codigo": 4,
@@ -29,6 +38,9 @@
         "apellidos": "Pozo Urgilés",
         "documento": "1717171777",
         "telefono": "0999999999",
-        "socio": "Particular"
+        "correoelectronico":"isaacandrespozo@gmial.com",
+        "direccion": "Mi casa",
+        "tariff": "Particular",
+        "saldo": 450
     }
 ]
