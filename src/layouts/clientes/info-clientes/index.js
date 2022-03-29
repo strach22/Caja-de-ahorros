@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 // @mui material components
 import Grid from "@mui/material/Grid";
 import MDButton from "components/MDButton";
@@ -46,13 +46,15 @@ function Notifications() {
             </MDBox>
           </Grid>
           <Grid item xs={12} lg={11}>
-            <MDButton href="/clientes" color="secondary" sx={{ marginLeft: 2 }}>
-              REGRESAR
-            </MDButton>
-            <MDButton href="/clientes" color="info" sx={{ marginLeft: 2 }}>
+            <Link to="/clientes">
+              <MDButton color="secondary" sx={{ marginLeft: 2 }}>
+                REGRESAR
+              </MDButton>
+            </Link>
+            <MDButton color="info" sx={{ marginLeft: 2 }}>
               EDITAR
             </MDButton>
-            <MDButton href="/clientes" color="error" sx={{ marginLeft: 2 }}>
+            <MDButton color="error" sx={{ marginLeft: 2 }}>
               ELIMINAR
             </MDButton>
           </Grid>

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+import { Link } from "react-router-dom";
 // Soft UI Dashboard React components
 import MDTypography from "components/MDTypography";
 import clients from "./clients.json";
@@ -48,15 +48,11 @@ export default function data() {
         </MDTypography>
       ),
       accion: (
-        <MDTypography
-          component="a"
-          href={`clientes/${cliente.id}`}
-          variant="caption"
-          color="text"
-          fontWeight="medium"
-        >
-          Ver
-        </MDTypography>
+        <Link to={`${cliente.id}`}>
+          <MDTypography component="a" variant="caption" color="text" fontWeight="medium">
+            Ver
+          </MDTypography>
+        </Link>
       ),
     })),
   };
