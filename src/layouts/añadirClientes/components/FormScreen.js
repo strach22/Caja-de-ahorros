@@ -20,51 +20,89 @@ import MDTypography from "components/MDTypography";
 export default function FormScreen() {
   return (
     <form>
-      <Box p="1em">
-        <Box display="flex">
+      <Box
+        sx={{
+          border: "3px solid grey",
+          background: "rgb(255,255,255)",
+          boxShadow: "3px 3px grey",
+          borderRadius: 4,
+        }}
+      >
+        <Box
+          display="flex"
+          sx={{
+            border: "1px solid grey",
+            background: "grey",
+            borderRadius: 3,
+          }}
+        >
           <Grid container spacing={3}>
             <Grid item xs={12}>
-              <MDTypography padding={2} variant={2}>
+              <MDTypography padding={3} variant="h1" color="light" sx={{ textAlign: "center" }}>
                 Crear Cliente
-              </MDTypography>
-            </Grid>
-            <Grid item xs={12}>
-              <MDTypography padding={2} variant={2}>
-                Datos de Cliente
               </MDTypography>
             </Grid>
           </Grid>
         </Box>
 
         <Box display="flex">
-          <Box flex={1.3} mr="1em">
-            <Grid container spacing={3}>
+          <Box flex={1.3} p="1.5em" mr="1em">
+            <Grid container spacing={2}>
               <Grid item xs={12}>
-                <TextField variant="outlined" label="Nombres" name="nombres" />
+                <TextField variant="outlined" label="Nombres" name="nombres" sx={{ width: 500 }} />
               </Grid>
               <Grid item xs={12}>
-                <TextField variant="outlined" label="Apellidos" name="apellidos" />
+                <TextField
+                  variant="outlined"
+                  label="Apellidos"
+                  name="apellidos"
+                  sx={{ width: 500 }}
+                />
               </Grid>
               <Grid item xs={12}>
-                <TextField variant="outlined" label="Cédula de Identidad" name="ci" />
+                <TextField
+                  variant="outlined"
+                  label="Cédula de Identidad"
+                  name="ci"
+                  sx={{ width: 500 }}
+                />
               </Grid>
               <Grid item xs={12}>
-                <TextField variant="outlined" label="Número de teléfono" name="phono" />
+                <TextField
+                  variant="outlined"
+                  label="Número de teléfono"
+                  name="phono"
+                  sx={{ width: 500 }}
+                />
               </Grid>
               <Grid item xs={12}>
-                <TextField variant="outlined" label="Email" name="email" />
+                <TextField variant="outlined" label="Email" name="email" sx={{ width: 500 }} />
               </Grid>
               <Grid item xs={12}>
-                <TextField variant="outlined" label="Dirección" name="direccion" />
+                <TextField
+                  variant="outlined"
+                  label="Dirección"
+                  name="direccion"
+                  sx={{ width: 500 }}
+                />
               </Grid>
             </Grid>
           </Box>
 
-          <Box flex={1} ml="1em">
+          <Box flex={1} p="1.5em" ml="1em">
             <Grid container spacing={3}>
               <Grid item xs={12}>
-                <FormControl>
-                  <FormLabel id="demo-controlled-radio-buttons-group">Tarifa</FormLabel>
+                <FormControl
+                  sx={{
+                    padding: "15px 80px 30px 40px",
+                    border: "2px double grey",
+                    borderRadius: 4,
+                    boxShadow: "3px 3px grey",
+                  }}
+                >
+                  <FormLabel id="demo-controlled-radio-buttons-group" sx={{ paddingBottom: 2 }}>
+                    Tarifa
+                  </FormLabel>
                   <RadioGroup aria-labelledby="demo-controlled-radio-buttons-group" name="tariff">
                     <FormControlLabel value="particular" control={<Radio />} label="Particular" />
                     <FormControlLabel value="socio" control={<Radio />} label="Socio" />
