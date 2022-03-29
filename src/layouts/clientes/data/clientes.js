@@ -7,7 +7,7 @@ import clients from "./clients.json";
 export default function data() {
   return {
     columns: [
-      { Header: "código", accessor: "codigo", align: "left" },
+      { Header: "código", accessor: "id", align: "left" },
       { Header: "nombres", accessor: "nombres", align: "left" },
       { Header: "apellidos", accessor: "apellidos", align: "left" },
       { Header: "documento", accessor: "documento", align: "center" },
@@ -17,9 +17,9 @@ export default function data() {
     ],
 
     rows: clients.map((cliente) => ({
-      codigo: (
+      id: (
         <MDTypography variant="caption" color="text" fontWeight="medium">
-          {cliente.codigo}
+          {cliente.id}
         </MDTypography>
       ),
       nombres: (
@@ -42,7 +42,7 @@ export default function data() {
           {cliente.telefono}
         </MDTypography>
       ),
-      socio: (
+      tariff: (
         <MDTypography variant="caption" color="text" fontWeight="medium">
           {cliente.tariff}
         </MDTypography>
@@ -50,7 +50,7 @@ export default function data() {
       accion: (
         <MDTypography
           component="a"
-          href={`clientes/${cliente.codigo}`}
+          href={`clientes/${cliente.id}`}
           variant="caption"
           color="text"
           fontWeight="medium"
